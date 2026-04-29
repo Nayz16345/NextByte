@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextByte | Plataforma Inteligente para Gestão de Resíduos Urbanos</title>
+  <meta name="description" content="A NextByte transforma a gestão de resíduos em uma operação inteligente, previsível e elegante para condomínios e ambientes urbanos.">
+  <meta name="theme-color" content="#f5f1e8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="icon" type="image/svg+xml" href="Logo icon.svg">
+</head>
+<body>
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <div class="loader-core">
+      <span class="brand-mark loader-mark">
+        <img src="Logo icon.svg" alt="" width="54" height="62">
+      </span>
+      <div class="loader-copy">
+        <strong>NextByte</strong>
+        <span>liderando a gestão inteligente</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <div class="site-noise" aria-hidden="true"></div>
+
+  <nav id="navbar" class="site-nav">
+    <div class="nav-inner">
+      <a href="#hero" class="brand">
+        <span class="brand-mark">
+          <img src="Logo icon.svg" alt="" width="34" height="39">
+        </span>
+        <span class="brand-copy">
+          <strong>NextByte</strong>
+          <span>Solutions</span>
+        </span>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#hero">Início</a>
+        <a href="#experience">Experiência</a>
+        <a href="#platform">Plataforma</a>
+        <a href="#capabilities">Capacidades</a>
+        <a href="#impact">Impacto</a>
+        <a href="#cta">Contato</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="#cta" class="btn btn-primary btn-compact">Solicitar apresentação</a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-backdrop" aria-hidden="true">
+        <div class="hero-orb hero-orb-left"></div>
+        <div class="hero-orb hero-orb-right"></div>
+        <div class="hero-grid"></div>
+      </div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy" data-reveal="up">
+          <span class="eyebrow">Plataforma operacional para condomínios e ambientes urbanos</span>
+          <h1>A NextByte faz o espaço inteiro parecer vivo, legível e pronto para agir.</h1>
+          <p class="hero-intro">
+            Mais do que uma ferramenta de monitoramento, entregamos uma nova inteligência para a gestão de infraestrutura urbana: 
+            com percepção contínua, decisão visual e resposta em tempo real.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#platform" class="btn btn-primary">Ver a plataforma</a>
+            <a href="#experience" class="btn btn-secondary">Entender a experiência</a>
+          </div>
+
+          <div class="hero-proof">
+            <article class="proof-pill">
+              <strong data-count="98" data-suffix="%">0</strong>
+              <span>Precisão nos alertas críticos</span>
+            </article>
+            <article class="proof-pill">
+              <strong data-count="40" data-suffix="%">0</strong>
+              <span>Menos deslocamentos desnecessários</span>
+            </article>
+            <article class="proof-pill">
+              <strong data-count="24" data-suffix="/7">0</strong>
+              <span>Leitura operacional contínua</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-stage" data-reveal="scale">
+          <div class="hero-stage-shell">
+            <div class="stage-toolbar">
+              <div class="toolbar-dots" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="toolbar-pills">
+                <span class="toolbar-pill">ao vivo</span>
+                <span class="toolbar-pill">resíduos inteligentes</span>
+              </div>
+            </div>
+
+            <div class="stage-body">
+              <div class="stage-overview">
+                <span class="stage-kicker">Centro de comando</span>
+                <h2>Visibilidade absoluta para uma gestão de resíduos sem incertezas.</h2>
+                <p>
+                  Nossa tecnologia mapeia o fluxo operacional em tempo real, antecipando gargalos 
+                  e otimizando cada movimento da equipe para máxima eficiência.
+                </p>
+              </div>
+
+              <div class="stage-grid">
+                <article class="stage-card stage-card-primary">
+                  <span class="stage-card-label">Estado da operação</span>
+                  <div class="stage-kpis">
+                    <div class="stage-kpi">
+                      <strong>128</strong>
+                      <span>sensores ativos</span>
+                    </div>
+                    <div class="stage-kpi">
+                      <strong>06</strong>
+                      <span>alertas em prioridade</span>
+                    </div>
+                    <div class="stage-kpi">
+                      <strong>03</strong>
+                      <span>rotas reajustadas</span>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="stage-card stage-card-terminal">
+                  <span class="stage-card-label">Orquestração inteligente</span>
+                  <div class="terminal-line is-strong">Analisando padrões de descarte por bloco</div>
+                  <div class="terminal-line">Repriorizando coleta no Bloco B</div>
+                  <div class="terminal-line">Sugestão: evitar visita preventiva na ala sul</div>
+                  <div class="terminal-line">Impacto estimado: -18% no deslocamento de equipe</div>
+                </article>
+
+                <article class="stage-float stage-float-route">
+                  <span class="float-label">Rota recomendada</span>
+                  <strong>Portaria → Bloco B → Área externa</strong>
+                  <p>Menor custo operacional para a próxima coleta.</p>
+                </article>
+
+                <article class="stage-float stage-float-signal">
+                  <span class="float-label">Sinal mais forte</span>
+                  <strong>Risco de saturação em 2h15</strong>
+                  <p>O sistema traduz leitura bruta em urgência clara.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="signal-band" aria-label="Principais sinais da plataforma">
+      <div class="container signal-band-grid">
+        <article class="signal-card" data-reveal="up">
+          <span class="signal-kicker">Percepção</span>
+          <h3>O condomínio inteiro vira uma interface operacional.</h3>
+          <p>Volume, bateria, temperatura e criticidade aparecem com clareza imediata.</p>
+        </article>
+        <article class="signal-card" data-reveal="up" data-reveal-delay="0.08">
+          <span class="signal-kicker">Previsão</span>
+          <h3>A leitura deixa de ser reativa e passa a antecipar a coleta.</h3>
+          <p>O sistema destaca o que vai virar problema antes de virar urgência real.</p>
+        </article>
+        <article class="signal-card" data-reveal="up" data-reveal-delay="0.16">
+          <span class="signal-kicker">Ação</span>
+          <h3>Gestores recebem contexto, prioridade e próximo passo.</h3>
+          <p>Menos ruído, mais decisão, mais segurança para operar com confiança.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section story-section">
+      <div class="container">
+        <div class="section-head" data-reveal="up">
+          <span class="section-tag">Eficiência Operacional</span>
+          <h2>A gestão inteligente acontece quando a plataforma transforma dados em decisão.</h2>
+          <p>
+            Nossa tecnologia não apenas monitora resíduos; ela orquestra uma operação eficiente, 
+            prevendo demandas e otimizando recursos em tempo real para condomínios modernos.
+          </p>
+        </div>
+
+        <div class="story-layout">
+          <div class="story-track">
+            <article
+              class="story-step is-active"
+              data-story-theme="sense"
+              data-stage-badge="Percepção em campo"
+              data-stage-title="Tudo começa ao enxergar o que antes passava despercebido."
+              data-stage-body="Sensores distribuídos transformam volume, temperatura e bateria em sinais legíveis para a operação inteira."
+              data-stage-metric="128"
+              data-stage-metric-label="pontos de leitura sincronizados"
+              data-stage-card-title="Camada de leitura operacional"
+              data-stage-insight="O primeiro valor da experiência está em remover invisibilidade da rotina."
+              data-stage-tags="status em tempo real|temperatura monitorada|energia dos sensores"
+              data-stage-bars="88|64|42|73"
+            >
+              <span class="story-step-index">01</span>
+              <h3>Visibilidade total em tempo real</h3>
+              <p>
+                A interface começa mostrando o espaço como ele é agora, sem ruído, sem excesso e sem
+                obrigar o usuário a interpretar sinais técnicos sozinho.
+              </p>
+              <ul class="story-step-list">
+                <li>Níveis de ocupação com leitura contínua.</li>
+                <li>Alertas ambientais com contexto visual imediato.</li>
+                <li>Uma base limpa para qualquer decisão posterior.</li>
+              </ul>
+            </article>
+
+            <article
+              class="story-step"
+              data-story-theme="predict"
+              data-stage-badge="Antecipação operacional"
+              data-stage-title="Depois de perceber, a plataforma aprende a prever."
+              data-stage-body="O sistema identifica aceleração de descarte, concentrações por bloco e momentos de saturação antes do transbordo."
+              data-stage-metric="2h15"
+              data-stage-metric-label="tempo estimado até criticidade"
+              data-stage-card-title="Janela de risco calculada"
+              data-stage-insight="Previsão não serve para impressionar. Serve para evitar custo, atraso e improviso."
+              data-stage-tags="janela crítica|tendência de lotação|priorização inteligente"
+              data-stage-bars="92|78|58|34"
+            >
+              <span class="story-step-index">02</span>
+              <h3>Inteligência preditiva e preventiva</h3>
+              <p>
+                A experiência passa a orientar. Em vez de apenas listar alertas, ela sugere onde o
+                gestor deve prestar atenção primeiro e por quê.
+              </p>
+              <ul class="story-step-list">
+                <li>Risco de saturação com horizonte temporal claro.</li>
+                <li>Filtragem automática do que é urgente de verdade.</li>
+                <li>Menos reação e mais planejamento operacional.</li>
+              </ul>
+            </article>
+
+            <article
+              class="story-step"
+              data-story-theme="act"
+              data-stage-badge="Resposta coordenada"
+              data-stage-title="A interface deixa de informar e começa a coordenar a ação."
+              data-stage-body="Rotas sugeridas, prioridades agrupadas e histórico visível permitem que a equipe aja com menos deslocamento e mais precisão."
+              data-stage-metric="18%"
+              data-stage-metric-label="ganho estimado na próxima rota"
+              data-stage-card-title="Sequência de execução recomendada"
+              data-stage-insight="Quando a ação é apresentada com clareza, a plataforma ganha autoridade."
+              data-stage-tags="rota inteligente|fila de prioridade|tempo poupado"
+              data-stage-bars="62|84|96|52"
+            >
+              <span class="story-step-index">03</span>
+              <h3>Orquestração e logística de campo</h3>
+              <p>
+                O produto assume linguagem de comando. O usuário deixa de montar mentalmente um plano
+                e passa a validar uma recomendação já bem estruturada.
+              </p>
+              <ul class="story-step-list">
+                <li>Sequências de coleta mais objetivas.</li>
+                <li>Priorização por impacto e não por sensação.</li>
+                <li>Comunicação mais fácil com equipe e administração.</li>
+              </ul>
+            </article>
+
+            <article
+              class="story-step"
+              data-story-theme="prove"
+              data-stage-badge="Evidência e confiança"
+              data-stage-title="No fim, a plataforma ajuda a provar resultado."
+              data-stage-body="A experiência fecha o ciclo mostrando economia, consistência operacional e argumentos visuais para prestação de contas."
+              data-stage-metric="40%"
+              data-stage-metric-label="redução média em custos de rotina"
+              data-stage-card-title="Resultado percebido e explicado"
+              data-stage-insight="Impacto visível transforma software em confiança institucional."
+              data-stage-tags="economia comprovada|histórico auditável|sustentabilidade tangível"
+              data-stage-bars="76|68|88|94"
+            >
+              <span class="story-step-index">04</span>
+              <h3>Evidência de impacto e ROI</h3>
+              <p>
+                O site não termina em uma lista de benefícios. Ele mostra como a operação melhora e
+                deixa claro o valor estratégico da NextByte.
+              </p>
+              <ul class="story-step-list">
+                <li>Resultados organizados para tomada de decisão.</li>
+                <li>Prestação de contas com menos esforço.</li>
+                <li>Uma mensagem forte de eficiência e sustentabilidade.</li>
+              </ul>
+            </article>
+          </div>
+
+          <aside class="story-stage" aria-live="polite">
+            <div class="story-stage-shell" id="story-stage-shell" data-theme="sense">
+              <div class="story-stage-top">
+                <span class="stage-badge" id="story-stage-badge">Percepção em campo</span>
+                <span class="stage-live">
+                  <span class="stage-live-dot"></span>
+                  em tempo real
+                </span>
+              </div>
+
+              <div class="story-stage-main">
+                <div class="story-stage-copy">
+                  <h3 id="story-stage-title">Tudo começa ao enxergar o que antes passava despercebido.</h3>
+                  <p id="story-stage-body">
+                    Sensores distribuídos transformam volume, temperatura e bateria em sinais
+                    legíveis para a operação inteira.
+                  </p>
+                </div>
+                <div class="story-stage-highlight">
+                  <span class="story-stage-highlight-label" id="story-stage-metric-label">pontos de leitura sincronizados</span>
+                  <strong id="story-stage-metric">128</strong>
+                </div>
+              </div>
+
+              <div class="story-stage-stack">
+                <article class="stack-card stack-card-main">
+                  <span class="stack-card-kicker" id="story-stage-card-title">Camada de leitura operacional</span>
+                  <div class="stack-graph" id="story-stage-graph">
+                    <span class="stack-bar" style="height: 88%;"></span>
+                    <span class="stack-bar" style="height: 64%;"></span>
+                    <span class="stack-bar" style="height: 42%;"></span>
+                    <span class="stack-bar" style="height: 73%;"></span>
+                  </div>
+                  <div class="stack-tags" id="story-stage-tags">
+                    <span class="stack-tag">status em tempo real</span>
+                    <span class="stack-tag">temperatura monitorada</span>
+                    <span class="stack-tag">energia dos sensores</span>
+                  </div>
+                </article>
+
+                <article class="stack-card stack-card-side">
+                  <span class="stack-card-kicker">Insight do momento</span>
+                  <p id="story-stage-insight">
+                    O primeiro valor da experiência está em remover invisibilidade da rotina.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="platform" class="section platform-section">
+      <div class="container platform-shell">
+        <div class="platform-head section-head" data-reveal="up">
+          <span class="section-tag">Plataforma</span>
+          <h2>O controle total da sua operação em um único painel estratégico.</h2>
+          <p>Desenvolvida para alta performance, nossa interface entrega clareza imediata para decisões complexas e gestão de ativos em tempo real.</p>
+        </div>
+
+        <div class="platform-theater">
+          <div class="platform-demo" data-reveal="scale">
+            <div class="platform-frame">
+              <div class="platform-frame-header">
+                <div class="platform-frame-copy">
+                  <span class="frame-label" id="platform-kicker">Operação Principal</span>
+                  <strong id="platform-title">Monitoramento em tempo real dos dispositivos de campo.</strong>
+                </div>
+                <span class="frame-badge">simulação interativa</span>
+              </div>
+
+              <div class="dashboard-wrapper">
+                <div class="dashboard-container">
+                  <div class="dashboard-panel">
+                    <aside class="dash-sidebar">
+                      <div class="dash-sidebar-inner">
+                        <div class="dash-sidebar-header">
+                          <span class="brand-mark brand-mark-sm">
+                            <img src="Logo icon.svg" alt="" width="20" height="23">
+                          </span>
+                          <strong>NextByte<span>OS</span></strong>
+                        </div>
+                        
+                        <div class="dash-sidebar-section">
+                          <span class="sidebar-label">Dispositivos</span>
+                          <div class="dash-bin-list" id="bin-list"></div>
+                        </div>
+
+                        <div class="dash-sidebar-footer">
+                          <div class="dash-avatar">JP</div>
+                          <div class="dash-user-info">
+                            <strong>João Pedro</strong>
+                            <span>Administrador</span>
+                          </div>
+                        </div>
+                      </div>
+                    </aside>
+
+                    <div class="dash-center">
+                      <div class="dash-center-header">
+                        <div class="dash-title">Terminal de Sinais<span>Monitoramento em tempo real</span></div>
+                        <div class="dash-status-dot"><span class="live-dot"></span>AO VIVO</div>
+                      </div>
+                      
+                      <div class="dash-feed" id="activity-feed">
+                        <!-- Conteúdo dinâmico preenchido pelo JS -->
+                      </div>
+
+                      <div class="dash-focus-card" id="focus-card">
+                        <!-- Detalhes do dispositivo selecionado -->
+                      </div>
+                    </div>
+
+                    <aside class="dash-right">
+                      <div class="dash-right-section no-padding">
+                        <div class="dash-section-header">
+                          <span>Mapa Operacional</span>
+                          <span class="dash-coord" id="map-coord">0.0, 0.0</span>
+                        </div>
+                        <div class="dash-map-container">
+                          <div class="dash-map" id="condo-map"></div>
+                        </div>
+                      </div>
+
+                      <div class="dash-right-section">
+                        <div class="dash-section-header">Indicadores Globais</div>
+                        <div class="dash-mini-stats">
+                          <div class="mini-stat">
+                            <span class="mini-stat-label">Ativos</span>
+                            <strong id="dash-total">8</strong>
+                          </div>
+                          <div class="mini-stat">
+                            <span class="mini-stat-label">Críticos</span>
+                            <strong class="red" id="dash-full">2</strong>
+                          </div>
+                          <div class="mini-stat">
+                            <span class="mini-stat-label">Bateria</span>
+                            <strong id="dash-battery">72%</strong>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="dash-right-section">
+                        <div class="dash-section-header">Próxima Coleta</div>
+                        <div class="dash-route-card">
+                          <strong>Otimização Gerada</strong>
+                          <p>Analisando padrões de descarte para reduzir deslocamento.</p>
+                        </div>
+                      </div>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="capabilities" class="section capabilities-section">
+      <div class="container">
+        <div class="section-head section-head-center" data-reveal="up">
+          <span class="section-tag">Capacidades</span>
+          <h2>Tecnologia com propósito, clareza e controle total.</h2>
+          <p>
+            Cada ferramenta foi desenhada para transformar dados brutos em decisões precisas e movimento operacional eficiente.
+          </p>
+        </div>
+
+        <div class="capability-grid">
+          <article class="capability-card" data-reveal="up">
+            <span class="capability-kicker">Monitoramento</span>
+            <h3>Leitura viva do ambiente</h3>
+            <p>
+              Sensores, alertas e sinais são mostrados com clareza editorial e hierarquia técnica.
+            </p>
+            <span class="capability-foot">menos ruído, mais entendimento imediato</span>
+          </article>
+
+          <article class="capability-card" data-reveal="up" data-reveal-delay="0.08">
+            <span class="capability-kicker">Antecipação</span>
+            <h3>Gestão proativa</h3>
+            <p>
+              Nossa plataforma antecipa incidentes e orienta o gestor para o que realmente importa no momento exato.
+            </p>
+            <span class="capability-foot">tecnologia aliada à visão executiva</span>
+          </article>
+
+          <article class="capability-card" data-reveal="up" data-reveal-delay="0.16">
+            <span class="capability-kicker">Controle</span>
+            <h3>Interface estratégica</h3>
+            <p>
+              Uma demonstração interativa com acabamento de software de ponta e alta fidelidade.
+            </p>
+            <span class="capability-foot">credibilidade visual instantânea</span>
+          </article>
+
+          <article class="capability-card" data-reveal="up" data-reveal-delay="0.24">
+            <span class="capability-kicker">Gestão</span>
+            <h3>Controle e Auditoria</h3>
+            <p>
+              Histórico completo e dados auditáveis para uma prestação de contas transparente.
+            </p>
+            <span class="capability-foot">segurança institucional e operacional</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="impact" class="section impact-section">
+      <div class="container">
+        <div class="impact-shell">
+          <div class="impact-copy" data-reveal="up">
+            <span class="section-tag section-tag-inverse">Impacto real</span>
+            <h2>Resultados mensuráveis, economia garantida e operação otimizada.</h2>
+            <p>
+              A NextByte não apenas monitora; ela transforma a forma como o condomínio se comporta e economiza recursos.
+            </p>
+          </div>
+
+          <div class="impact-grid">
+            <article class="impact-card" data-reveal="up">
+              <span class="impact-card-label">Economia Operacional</span>
+              <strong class="impact-card-value" data-count="40" data-suffix="%">0</strong>
+              <p>Redução média em deslocamentos e coletas desnecessárias com roteamento inteligente.</p>
+            </article>
+
+            <article class="impact-card" data-reveal="up" data-reveal-delay="0.08">
+              <span class="impact-card-label">Confiabilidade</span>
+              <strong class="impact-card-value" data-count="98" data-suffix="%">0</strong>
+              <p>Precisão total na identificação de pontos de saturação e alertas ambientais.</p>
+            </article>
+
+            <article class="impact-card impact-card-quote" data-reveal="up" data-reveal-delay="0.16">
+              <span class="impact-card-label">Visão</span>
+              <blockquote>
+                "A plataforma transforma resíduos em dados e dados em eficiência operacional pura."
+              </blockquote>
+              <p>A mensagem da empresa agora soa estratégica, sólida e pronta para o mercado real.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="section cta-section">
+      <div class="container">
+        <div class="cta-panel" data-reveal="scale">
+          <div class="cta-copy">
+            <span class="section-tag">Próximo Passo</span>
+            <h2>Pronto para elevar o padrão operacional do seu condomínio?</h2>
+            <p>
+              Solicite uma demonstração completa e veja como a NextByte pode transformar sua gestão diária.
+            </p>
+          </div>
+
+          <div class="cta-actions">
+            <a href="mailto:contato@nextbyte.com.br" class="btn btn-primary">Solicitar Apresentação</a>
+            <a href="#hero" class="btn btn-secondary">Voltar ao Topo</a>
+          </div>
+
+          <div class="cta-contact">
+            <div>
+              <span class="cta-contact-label">E-mail</span>
+              <a href="mailto:contato@nextbyte.com.br">nextbyte@gmail.com </a>
+            </div>
+            <div>
+              <span class="cta-contact-label">Foco Central</span>
+              <strong>Eficiência, Visibilidade e Controle.</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="brand">
+          <span class="brand-mark">
+            <img src="Logo icon.svg" alt="" width="34" height="39">
+          </span>
+          <span class="brand-copy">
+            <strong>NextByte</strong>
+            <span>Solutions</span>
+          </span>
+        </a>
+        <p>Tecnologia com presença de marca, clareza operacional e experiência à altura do futuro.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#experience">Experiência</a>
+        <a href="#platform">Plataforma</a>
+        <a href="#capabilities">Capacidades</a>
+        <a href="#impact">Impacto</a>
+        <a href="mailto:contato@nextbyte.com.br">Contato</a>
+      </div>
+
+      <div class="footer-note">
+        <span>&copy; 2026 NextByte Solutions. Todos os direitos reservados.</span>
+        <span>Gestão Estratégica de Resíduos.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/dashboard.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
